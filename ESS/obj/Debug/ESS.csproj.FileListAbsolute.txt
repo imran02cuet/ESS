@@ -1,0 +1,4 @@
+F:\OutSource\ESS\ESS\ESS\bin\ESS.dll
+F:\OutSource\ESS\ESS\ESS\bin\ESS.pdb
+F:\OutSource\ESS\ESS\ESS\obj\Debug\ESS.dll
+F:\OutSource\ESS\ESS\ESS\obj\Debug\ESS.pdb

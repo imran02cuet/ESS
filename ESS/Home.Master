@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Home.master.cs" Inherits="ESS.Home1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Home Page</title>  
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" /> 
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    <table>
+    <tr>
+        <td >
+            <asp:Menu ID="UserMenu" Orientation="Vertical" ItemWrap="false" SkipLinkText="true"
+                            StaticMenuItemStyle-CssClass="button_blue" StaticMenuItemStyle-ItemSpacing="3" 
+                            runat="server"  Width="280px" StaticMenuItemStyle-VerticalPadding="6" 
+                            StaticEnableDefaultPopOutImage="False" StaticSubMenuIndent="0" 
+                                onmenuitemclick="UserMenu_MenuItemClick">
+            </asp:Menu> 
+        </td>
+        <td width="100%">
+             <asp:ContentPlaceHolder ID="mainHolder" runat="server">
+        
+            </asp:ContentPlaceHolder>
+        </td>
+    </tr>
+    </table>
+           
+      
+    </div>
+    </form>
+</body>
+</html>
