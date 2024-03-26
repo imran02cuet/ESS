@@ -1,1 +1,2 @@
-This is a inventory management systems using C#
+This is a inventory management systems using C#.
+Simple project.
